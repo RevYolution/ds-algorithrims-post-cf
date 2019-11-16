@@ -8,8 +8,8 @@ namespace ds_algorithims_post_cf
         {
             //ArrayReverse.Program.ArrayReverseWhileLoop();
             //ArrayReverse.Program.ArrayReverseForLoop();
-            //ArrayShift.Program.ArrayShiftUserInput();
-            ArrayShift.Program.insertShiftArray(ArrayShift.Program.ArrayShiftUserInput());
+            //ArrayShift.Program.insertShiftArray(ArrayShift.Program.ArrayShiftUserInput());
+            BinarySearch.Program.BinarySearchArray();
         }
     }
 }
