@@ -7,6 +7,7 @@ namespace ds_algorithims_post_cf
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            ArrayReverse.Program.ArrayReverse();
         }
     }
 }
