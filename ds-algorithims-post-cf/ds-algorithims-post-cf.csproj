@@ -6,4 +6,7 @@
     <RootNamespace>ds_algorithims_post_cf</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="challenges\" />
+  </ItemGroup>
 </Project>
