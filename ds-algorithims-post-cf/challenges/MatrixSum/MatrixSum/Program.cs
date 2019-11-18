@@ -20,13 +20,24 @@ namespace MatrixSum
             ArrayList sumArray = new ArrayList();
             int total = 0;
 
-            Console.WriteLine(total);
+            Console.WriteLine(matrixToAdd.Length);
+            Console.WriteLine(matrixToAdd.Rank);
 
-            foreach (var item in matrixToAdd)
-            {
-                Console.Write($"{total += item} , ");
+            //for (int i = 0; i < matrixToAdd.Length; i++)
+            //{
+            //    total = 0;
+            //    int[] currentArray = matrixToAdd[i];
+            //    foreach (var item in i)
+            //    {
 
-            }
+            //    }
+            //}
+
+            //foreach (var item in matrixToAdd)
+            //{
+            //    Console.Write($"{total += item} , ");
+
+            //}
 
         }
     }
