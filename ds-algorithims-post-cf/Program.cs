@@ -9,7 +9,8 @@ namespace ds_algorithims_post_cf
             //ArrayReverse.Program.ArrayReverseWhileLoop();
             //ArrayReverse.Program.ArrayReverseForLoop();
             //ArrayShift.Program.insertShiftArray(ArrayShift.Program.ArrayShiftUserInput());
-            BinarySearch.Program.BinarySearchArray();
+            //BinarySearch.Program.BinarySearchArray();
+            MatrixSum.Program.MatrixSum();
         }
     }
 }
