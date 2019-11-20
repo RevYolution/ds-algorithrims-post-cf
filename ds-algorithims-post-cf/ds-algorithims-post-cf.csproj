@@ -8,5 +8,9 @@
 
   <ItemGroup>
     <Folder Include="challenges\" />
+    <Folder Include="Data-Structures\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Data-Structures\StacksAndQueues\StacksAndQueues\T.cs" />
   </ItemGroup>
 </Project>
