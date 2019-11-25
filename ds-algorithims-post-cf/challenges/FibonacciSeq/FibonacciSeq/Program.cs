@@ -41,15 +41,34 @@ namespace FibonacciSeq
                     fibAtCounter = fibAtCounter + previousNumber;
                     previousNumber = fibAtCounter - previousNumber;
                 }
-                //int fibCalculation = fibAtCounter + previousNumber;
-                //previousNumber = fibCalculation;
-                //fibAtCounter = fibCalculation - previousNumber;
                 counter++;
             }
 
-            //int fibCalculation = (fibNumber - 1) + (fibNumber - 2);
-
             Console.WriteLine($"The nth number of a Fibonacci Sequence of {fibNumber} is {fibAtCounter}.");
+        }
+
+        public static void FibIteration()
+        {
+            int fibNumber = UserFibInput()+1;
+            int[] outputArray = new int[fibNumber];
+
+            for (int i = 0; i < outputArray.Length; i++)
+            {
+                if (i == 0)
+                {
+                    outputArray[i] = 0;
+                }
+                if (i == 1)
+                {
+                    outputArray[i] = 1;
+                }
+                if (i > 1)
+                {
+                    outputArray[i] = outputArray[i - 1] + outputArray[i - 2];
+                }
+            }
+
+            Console.WriteLine($"The out put at the nth position of {fibNumber-1} is {outputArray[fibNumber-1]}");
         }
     }
 }

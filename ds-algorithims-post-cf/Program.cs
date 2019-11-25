@@ -12,6 +12,7 @@ namespace ds_algorithims_post_cf
             //BinarySearch.Program.BinarySearchArray();
             //MatrixSum.Program.MatrixSum();
             //FibonacciSeq.Program.FibEquation();
+            FibonacciSeq.Program.FibIteration();
         }
     }
 }
